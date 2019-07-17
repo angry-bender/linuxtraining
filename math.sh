@@ -7,4 +7,3 @@ FPX=1.5
 FPY=3.2
 FPANS=$(echo "$FPX + $FPY" | bc)
 echo "The floating point ans is $FPANS"
-echo "hello"

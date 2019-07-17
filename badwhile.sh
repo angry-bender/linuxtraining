@@ -1,7 +1,7 @@
 #!/bin/bash
 INC=0
-while [[ $INC -lt 10 ]]
+while [[ $i -lt 10 ]]
 do
-	mkdir "folder$idogs:L"
+	mkdir "folder$i"
 	((i++)) #Incriments the number by 1
 done
