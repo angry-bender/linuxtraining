@@ -7,7 +7,7 @@ while [[ $INC -lt 254 ]]
 do
     ping -c 1 -w 1 -q "$host.$INC" > /dev/null                 
     if [ "$?" -eq 0 ]; then                           
-    printf "$light_green" "[ $host.$INC CONNECTION AVAILABLE ]" >> validhosts.txt
+    printf "$light_green" "[ $host.$INC CONNECTION AVAILABLE ]" validhosts.txt
     else                                              
     printf "$light_red" "[ $host.$INC HOST DISCONNECTED ]"    
     fi
