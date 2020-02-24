@@ -38,6 +38,7 @@ apt autoclean
 #Install apps
 install openssh-server
 install vim
+install p7zip
 
 read -p "Check for Green * above, if red, or failed contact instructor. Press Enter to Reboot"
 
