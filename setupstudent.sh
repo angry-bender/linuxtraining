@@ -39,6 +39,7 @@ apt autoclean
 install openssh-server
 install vim
 install p7zip-full
+install cowsay
 
 read -p "Check for Green * above, if red, or failed contact instructor. Press Enter to Reboot"
 
